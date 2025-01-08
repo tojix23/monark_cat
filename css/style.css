@@ -1,0 +1,108 @@
+.uk-navbar-container {
+  background-color: black !important;
+}
+.uk-navbar-container a {
+  color: white !important;
+}
+/* .uk-navbar-dropdown{
+  background-color: black !important;
+}
+.uk-navbar-dropdown-nav {
+
+  color: white !important;
+} */
+.nav-sub-items a{
+  color: black !important;
+}
+.uk-active a {
+  color: #ffc300 !important;
+}
+#button-support {
+  background-color: #ffc300 !important;
+  color: black;
+}
+#get-free-qoute {
+  background-color: #ffc300 !important;
+  color: white;
+}
+/* SLIDE SHOW  */
+.uk-slidenav-previous,
+.uk-slidenav-next {
+  background-color: rgba(255, 255, 255, 0.7); 
+  padding: 20px; 
+  color: black; 
+}
+
+.uk-slidenav-previous:hover,
+.uk-slidenav-next:hover {
+  background-color: rgba(255, 255, 255, 0.9); 
+}
+
+.uk-position-center-left .uk-overlay {
+  padding-left: 50px; 
+}
+
+.uk-position-center-left {
+  left: 60px; 
+}
+.uk-position-center-right .uk-overlay {
+  padding-right: 50px; 
+}
+
+.uk-position-center-right {
+  right: 60px; 
+}
+.uk-overlay {
+  left: 100px;
+}
+
+.uk-overlay h3,
+.uk-overlay h1 {
+  margin: 0; 
+  padding: 0;
+  color: white; 
+}
+/* SLIDE SHOW  */
+
+/* CARDS */
+.card-with-background {
+  position: relative; 
+  overflow: show;   
+  z-index: 1;
+}
+
+.card-with-background::before {
+  content: ''; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/assets/truck2.jpg'); 
+  background-size: cover;
+  background-position: center;
+  /* filter: blur(2px); */
+  z-index: -1; 
+  /* opacity: 0.5;  */
+}
+
+
+.card-with-background h3,
+.card-with-background p,
+.card-with-background {
+  position: relative; 
+  z-index: 1;
+}
+.uk-card-title {
+  color: white !important;
+}
+
+.card-with-background img.card-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%; 
+  height: auto;
+  transform: translate(-5%, 30%); /* Adjusted to shift both bottom-right and top */
+  pointer-events: none;
+}
